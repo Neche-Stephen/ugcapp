@@ -1,0 +1,51 @@
+.getStarted{
+    height: 100vh;
+    padding-bottom: 50px;
+}
+.getStarted_ugc_container{
+    height: 100vh;
+}
+/* .getStarted_ugc{
+} */
+
+.getStarted_U, .getStarted_C{
+    color: #2B791E;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    /* border: 5px solid black; */
+}
+
+.getStarted_C{
+    font-size: 52px;
+    letter-spacing: 1.24px;
+   
+}
+
+.getStarted_G{
+    position: relative;
+    bottom: 16px;
+}
+
+.getStarted_btn{
+    display: flex;
+    width: 283px;
+    height: 49px;
+    padding: 21px 78px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 3px solid #2B791E;
+    background: #2B791E;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
