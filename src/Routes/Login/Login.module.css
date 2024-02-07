@@ -1,5 +1,5 @@
-.signup{
-    height: auto;
+.login{
+    height: 100vh;
     flex-shrink: 0;
     background-image: 
     linear-gradient(0deg, #163910 0%, rgba(22, 57, 16, 0.70) 100%), 
@@ -12,7 +12,7 @@
     padding-bottom: 10px;
 }
 
-.welcome{
+.welcome_back{
     color: #FFF;
     font-family: Poppins;
     font-size: 32px;
@@ -23,7 +23,7 @@
     margin-bottom: 12px;
 }
 
-.signup_start{
+.login_continue{
     color: #FFF;
     font-family: Poppins;
     font-size: 11px;
@@ -33,16 +33,13 @@
     text-align: center;
     margin-bottom: 11px;
 }
-.signup_form_wrapper{
-    /* width: 300px; */
+
+.login_form_wrapper{
     width: 80%;
     margin:0 auto;
 }
-/* .signup_form{
-   
-} */
 
-.signup_input{
+.login_input{
     display: flex;
     /* width: 353px; */
     width: 100%;
@@ -58,7 +55,7 @@
     margin-bottom: 13px;
 }
 
-.signup_input::placeholder{
+.login_input::placeholder{
     font-family: Poppins;
     font-size: 15px;
     font-weight: 500;
@@ -68,7 +65,18 @@
     color:#FFFFFF73;
 }
 
-.signup_text{
+.forgot_password{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;    
+    color: #FFFFFF;
+
+}
+
+.login_text{
     font-family: Poppins;
     font-size: 22px;
     font-weight: 500;
@@ -77,24 +85,24 @@
     color: #FFFFFF;
 }
 
-.signup_social_container{
+.login_social_container{
     position: relative;
     display: inline-block;
 }
 
-.signup_social{
+.login_social{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.login{
+.signup{
     font-family: Poppins;
     font-size: 15px;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0em;
     color: #fff;
-    
+ 
 }

@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import styles from './SignUp.module.css';
 
@@ -52,7 +53,7 @@ export default function SignUp() {
       </div>
       {/* login here */}
       <div className={`${styles.login} flex justify-center mt-10`}>
-          Log in, <b>here</b>
+          Log in, <b className="ms-1"><Link to="/login">here</Link></b>
       </div>
     </div>
   )
